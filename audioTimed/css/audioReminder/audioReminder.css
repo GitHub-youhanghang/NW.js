@@ -1,0 +1,66 @@
+ul{margin: 0;padding: 0;}
+    .recordingslist li {
+        list-style: none;
+        border: 1px solid #CCC;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 6px;
+    }
+    
+    .recordingslist li a {
+        vertical-align: 10px;
+        display: inline-block;
+        height: 37px;
+        line-height: 37px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #CCC;
+        border-radius: 10px;
+    }
+    
+    .recordingslist li a:hover {
+        border-radius: 10px;
+        background-color: #FFD700;
+    }
+    
+    .recordingslist li a span {}
+    
+    .recoder-data {
+/*         float: right;
+        line-height: 37px; */
+        vertical-align: 10px;
+        margin-left: 20px;
+    }
+    
+    .li-form {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .li-form .form-control {
+        width: 70px;
+    }
+    
+    .li-form .btn {
+        margin-left: 10px;
+    }
+    
+    .li-title {
+        display: inline-block;
+        width: 200px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+@media screen and (max-width: 480px){
+  body{
+       padding: 10px;
+   }
+   audio{display: block;width: 100%;}
+   .recordingslist li a{display: block;}
+   .li-form{display: block;text-align: center;}
+   .timer{display: inline-block;}
+   .recoder-data{display: none;}
+   .max480 h1{text-align: center;font-size: 24px;margin: 0;}
+  .max480p{display: none;}
+}

@@ -1,0 +1,44 @@
+[0531/142055.841:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/200430.409:WARNING:chrome_main_delegate.cc(565)] final extension: .nw
+[0601/200436.290:WARNING:chrome_main_delegate.cc(565)] final extension: .nw
+[0601/200443.877:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/200722.273:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/201830.949:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/201845.874:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/201846.041:ERROR:registration_protocol_win.cc(55)] CreateFile: 系统找不到指定的文件。 (0x2)
+[0601/202907.507:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/203009.008:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/203053.167:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/203401.234:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/203734.290:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/203931.675:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/225604.622:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0601/225604.747:ERROR:registration_protocol_win.cc(55)] CreateFile: 系统找不到指定的文件。 (0x2)
+[0601/225612.528:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/003109.449:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/003123.109:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/003152.320:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004016.031:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004048.683:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004135.553:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004253.624:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004326.973:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004414.788:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004414.916:ERROR:registration_protocol_win.cc(55)] CreateFile: 系统找不到指定的文件。 (0x2)
+[0602/004418.808:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004559.206:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004643.135:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004759.969:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004835.492:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/004843.513:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/011105.923:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/011910.574:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/011918.472:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/011937.987:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/011950.880:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/012021.120:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/012054.913:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/012107.237:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/012133.473:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/012141.593:WARNING:chrome_main_delegate.cc(565)] final extension: 
+[0602/012213.471:WARNING:chrome_main_delegate.cc(565)] final extension: 

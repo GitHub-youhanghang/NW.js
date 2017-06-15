@@ -13,6 +13,8 @@
     "min_width": 400,
     "min_height": 320,
     "max_width": 1920,
-    "max_height": 1024
+    "max_height": 1024,
+    "icon": "images/favicon.png"
+
   }
 }

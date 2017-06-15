@@ -33,3 +33,4 @@
 [0602/004843.513:WARNING:chrome_main_delegate.cc(565)] final extension: 
 [0602/011105.923:WARNING:chrome_main_delegate.cc(565)] final extension: 
 [0603/203135.178:ERROR:registration_protocol_win.cc(55)] CreateFile: 系统找不到指定的文件。 (0x2)
+[0615/141308.885:ERROR:registration_protocol_win.cc(55)] CreateFile: 系统找不到指定的文件。 (0x2)
