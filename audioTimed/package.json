@@ -10,7 +10,7 @@
     "show_in_taskbar":true,
     "width": 1000,
     "height": 1000,
-    "position": "mouse",
+    "position": "center",
     "min_width": 400,
     "min_height": 320,
     "max_width": 1920,

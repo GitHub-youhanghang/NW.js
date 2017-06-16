@@ -5,7 +5,7 @@
         //定义存放定时器的数组
         var timerArr = [];
 
-        // wsCache.set('username', 'wqteam', {exp : nextYear});
+        wsCache.set('1', '11');
 
 
         var recordingslist = $('#recordingslist')[0];
@@ -53,6 +53,7 @@
 
                 au.controls = true;
                 au.src = url;
+                au.className = 'main-audio';
                 hf.href = url;
                 hf.title = '点击下载';
                
@@ -69,7 +70,7 @@
                 hf.innerHTML = '<span class="li-title">' + title + '</span>';
                 li.appendChild(au);
                 li.appendChild(hf);
-                var timerHtml = '<div id="liForm" class="li-form form-inline">每隔<input placeholder="1" class="timer form-control" type="number" />小时提醒<button class="start btn btn-default">开始</button><button disabled class="stop btn btn-default">结束</button></div>';
+                var timerHtml = '<div id="liForm" class="li-form form-inline">每隔<input placeholder="1" class="timer form-control" type="number" />小时提醒<button class="start btn btn-default">开始</button><button disabled class="stop btn btn-default">结束</button> <audio class="tip-audio" style="display: none;" src="audio/iphoneqq.mp3"></audio></div>';
                 var recoderTime = '<span class="recoder-data">' + new Date().Format("yyyy-MM-dd hh:mm:ss").toString() + '</span>';
                 $(li).append(timerHtml + recoderTime);
                 recordingslist.appendChild(li);
@@ -91,6 +92,7 @@
             console.log('当前定时器索引' + audioTimer);
             console.log('当前定时器数组' + timerArr);
         }
+       
         $('#recordingslist').on('click', function(event) {
             var $target = $(event.target);
             var index = $(event.target).parents('li').index();
@@ -99,11 +101,13 @@
                 $($target).parent().find('.timer').attr('disabled', 'disabled');
                 $($target).parent().find('.stop').removeAttr('disabled');
                 var time = $($target).parent().find('.timer').val();
-                var audio = $($target).parents('li').find('audio')[0];
+                var audio = $($target).parents('li').find('.main-audio')[0];
+                var tipAudio = $($target).parents('li').find('.tip-audio')[0];
 
                 var intTime = parseFloat(time);
                 var stepTime = intTime * 60 * 60 * 1000;
                 audioTimer(audio, stepTime);
+                audioTimer(tipAudio, stepTime-2000);
 
 
 

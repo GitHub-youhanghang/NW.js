@@ -24,6 +24,9 @@
     <script src="js/web-storage-cache.js"></script>
     <script src="js/audioReminderJs/audioreminder.js"></script>
     <script type="text/javascript">
+    var wsCache = new WebStorageCache();
+    alert(wsCache.get('1'));
+    wsCache.clear();
     </script>
 </body>
 

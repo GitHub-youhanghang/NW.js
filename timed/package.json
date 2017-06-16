@@ -3,18 +3,17 @@
   "version": "0.0.1",
   "main": "index.html",
   "window": {
+    "icon": "images/favicon.png",
     "title": "timed",
     "toolbar": true,
     "frame": true,
     "show_in_taskbar":true,
-    "width": 600,
+    "width": 1000,
     "height": 1000,
-    "position": "mouse",
+    "position": "center",
     "min_width": 400,
     "min_height": 320,
     "max_width": 1920,
-    "max_height": 1024,
-    "icon": "images/favicon.png"
-
+    "max_height": 1024
   }
 }
