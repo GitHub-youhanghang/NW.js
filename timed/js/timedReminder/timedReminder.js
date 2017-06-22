@@ -211,7 +211,7 @@ $(document).ready(function() {
         $('.addBlock').hide();
         $('.swiper-container').show();
         renderBanner('vertical');
-        window.resizeTo(400, 320);
+        window.resizeTo(400, 1000);
         window.moveTo(1920, 0);
         $('.catalog').addClass('hide-forever');
 
@@ -423,7 +423,8 @@ var HtmlUtil = {
             paginationClickable: true,
             // paginationBulletRender: function (swiper, index, className) {
             //     return '<span class="' + 'swiper-pagination-bullet' + '">' + (index + 1) + '</span>';
-            // } ,       
+            // } ,   
+            //     
             speed: 1000,
             autoplayDisableOnInteraction: false, //用户操作swiper之后，是否禁止autoplay。
             grabCursor: true, //设置为true时，鼠标覆盖Swiper时指针会变成手掌形状，拖动时指针会变成抓手形状
