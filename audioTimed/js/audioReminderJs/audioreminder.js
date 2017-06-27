@@ -70,7 +70,7 @@
                 hf.innerHTML = '<span class="li-title">' + title + '</span>';
                 li.appendChild(au);
                 li.appendChild(hf);
-                var timerHtml = '<div id="liForm" class="li-form form-inline">每隔<input placeholder="1" class="timer form-control" type="number" />小时提醒<button class="start btn btn-default">开始</button><button disabled class="stop btn btn-default">结束</button> <audio class="tip-audio" style="display: none;" src="audio/iphoneqq.mp3"></audio></div>';
+                var timerHtml = '<div id="liForm" class="li-form form-inline">每隔<input placeholder="1" class="timer form-control" type="number" />小时提醒<button class="start btn btn-default">开始</button><button disabled class="stop btn btn-default">结束</button> </div>';
                 var recoderTime = '<span class="recoder-data">' + new Date().Format("yyyy-MM-dd hh:mm:ss").toString() + '</span>';
                 $(li).append(timerHtml + recoderTime);
                 recordingslist.appendChild(li);
@@ -84,7 +84,11 @@
             var audioTimer = null;
             clearInterval(audioTimer);
             var audioTimer = setInterval(function() {
-                audio.play();
+                $('.tip-audio')[0].play();
+                setTimeout(function(){
+                     audio.play();
+                 },200);
+               
 
             }, stepTime || 1 * 60 * 60 * 1000);
 
@@ -102,12 +106,12 @@
                 $($target).parent().find('.stop').removeAttr('disabled');
                 var time = $($target).parent().find('.timer').val();
                 var audio = $($target).parents('li').find('.main-audio')[0];
-                var tipAudio = $($target).parents('li').find('.tip-audio')[0];
+                // var tipAudio = $($target).parents('li').find('.tip-audio')[0];
 
                 var intTime = parseFloat(time);
                 var stepTime = intTime * 60 * 60 * 1000;
                 audioTimer(audio, stepTime);
-                audioTimer(tipAudio, stepTime-2000);
+                // audioTimer(tipAudio, stepTime-2000);
 
 
 

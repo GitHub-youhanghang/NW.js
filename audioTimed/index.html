@@ -16,19 +16,19 @@
 <body>
     <div class="container">
         <div class="row max480">
-            <h1>定时提醒录音</h1>
+            <h3>定时提醒录音 <button id="pageRefresh" class="btn btn-default">刷新页面</button></h3>
             <div class="form-inline">
                 <input id="title" class="form-control" type="text" placeholder="选填录音标题">
                 <button id="audioStart" class="btn btn-default">开始录音</button>
                 <button id="audioStop" class="btn btn-default" disabled>停止录音</button>
                 <a href="localAudio.html" class="btn btn-default">本地音频</a>
             </div>
-            <h2>录音列表</h2>
+            <h3>录音列表</h3>
             <ul id="recordingslist" class="recordingslist">
             </ul>
         </div>
     </div>
-  
+   <audio class="tip-audio" style="display: none;" src="audio/iphoneqq.mp3"></audio>
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/audioReminderJs/recorder.js"></script>
@@ -36,6 +36,9 @@
     <script src="js/audioReminderJs/audioreminder.js"></script>
     <script type="text/javascript">
 
+    $('#pageRefresh').on('click',function(){
+        window.location.reload();
+    })
     </script>
 </body>
 
