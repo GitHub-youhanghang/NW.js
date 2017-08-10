@@ -96,6 +96,7 @@ display: block;
     
     .editTextarea {
         width: 100%;
+        min-height: 500px;
     }
     
     .timerNum {
